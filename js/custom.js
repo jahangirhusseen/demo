@@ -91,11 +91,8 @@ $(document).ready(function () {
             });
         }
     });
-//-------- 0.2 counterUp Js --------
-      $('.counter').counterUp({
-    delay: 10,
-    time: 1000
-});
+    
+
     
     //-------- 0.3 Fixed Top Navbar Js --------
     $(window).scroll(function () {
@@ -188,7 +185,11 @@ $(document).ready(function () {
     });
     
     
-    
+        //-------- 0.2 counterUp Js --------
+      $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
     //-------- 0.7 Dropdown on hover Js --------
 
     $(".dropdown").hover(
@@ -226,7 +227,6 @@ $(document).ready(function () {
 
     //-------- 0.9 WoW Js --------
     new WOW().init({});
-
 
 });
 //-------- 0.10 Preloader Js --------
